@@ -1,0 +1,9 @@
+INSERT INTO lesson_present_students VALUES(null, 1, 1);
+INSERT INTO lesson_present_students VALUES(null, 1, 2);
+INSERT INTO lesson_present_students VALUES(null, 1, 3);
+INSERT INTO lesson_present_students VALUES(null, 2, 2);
+INSERT INTO lesson_present_students VALUES(null, 2, 3);
+INSERT INTO lesson_present_students VALUES(null, 2, 1);
+INSERT INTO lesson_present_students VALUES(null, 3, 3);
+INSERT INTO lesson_present_students VALUES(null, 3, 2);
+INSERT INTO lesson_present_students VALUES(null, 3, 3);

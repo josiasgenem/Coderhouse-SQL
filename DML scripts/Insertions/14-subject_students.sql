@@ -1,0 +1,9 @@
+INSERT INTO subject_students VALUES(null, 1, 1, null);
+INSERT INTO subject_students VALUES(null, 1, 2, null);
+INSERT INTO subject_students VALUES(null, 1, 3, null);
+INSERT INTO subject_students VALUES(null, 2, 2, null);
+INSERT INTO subject_students VALUES(null, 2, 3, null);
+INSERT INTO subject_students VALUES(null, 2, 4, null);
+INSERT INTO subject_students VALUES(null, 3, 3, null);
+INSERT INTO subject_students VALUES(null, 3, 4, null);
+INSERT INTO subject_students VALUES(null, 3, 5, null);
