@@ -263,3 +263,14 @@ CREATE TABLE student_quiz_responses(
     FOREIGN KEY (student_quiz_id) REFERENCES student_quiz(id),
     FOREIGN KEY (quiz_question_id) REFERENCES quizzes_questions(id)
 );
+
+# --------- AUDITS ---------
+
+CREATE TABLE audits(
+    id_log INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    entity VARCHAR(50) NOT NULL,
+    entity_id INT NOT NULL,
+    reg_action VARCHAR(10),
+    action_dt DATETIME,
+    action_by VARCHAR(100)
+);
