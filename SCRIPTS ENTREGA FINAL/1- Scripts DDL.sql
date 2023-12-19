@@ -243,13 +243,12 @@ CREATE TABLE quizzes_answers_options(
     FOREIGN KEY (question_id) REFERENCES quizzes_questions(id)
 );
 
-
 # Corregir para que la conjunción (student_id + quiz_id) sean valores únicos.
 CREATE TABLE student_quiz(
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     student_id INT NOT NULL,
     quiz_id INT NOT NULL,
-    score TINYINT NOT NULL,
+    score TINYINT,
     FOREIGN KEY (student_id) REFERENCES students(id),
     FOREIGN KEY (quiz_id) REFERENCES quizzes(id)
 );
